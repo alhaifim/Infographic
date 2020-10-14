@@ -1,0 +1,28 @@
+{
+  "name": "infographic",
+  "version": "1.0.0",
+  "description": "Infographic about Dinos",
+  "main": "app.js",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "json-server": "^0.16.2"
+  },
+  "devDependencies": {
+    "axios": "^0.20.0"
+  },
+  "scripts": {
+    "json-server": "json-server --watch dino.json --port 5000",
+    "dev": "npm run json-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alhaifim/Infographic.git"
+  },
+  "author": "Mohammed Al-Haifi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alhaifim/Infographic/issues"
+  },
+  "homepage": "https://github.com/alhaifim/Infographic#readme"
+}
